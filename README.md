@@ -1,10 +1,10 @@
 # MARLBlackHole
 
-This repository contains a Jupyter Notebook implementing a multi-agent reinforcement learning (MARL) environment where agents attempt to survive and maintain orbits around a simulated black hole. The project includes both Newtonian-gravity and circular-orbit modes, reward shaping, curriculum learning, and a full PPO training pipeline.
+This repository contains a Jupyter Notebook implementing a multi-agent reinforcement learning (MARL) environment where agents attempt to survive and maintain orbits around a simulated black hole. The project includes both Newtonian-gravity and circular-orbit modes, reward shaping, curriculum learning, and a full SharedPPO training pipeline.
 
 ## Contents
 
-The notebook includes the complete codebase, organized into the following components:
+The notebook includes the complete codebase organized into the following components:
 
 ### Drone and Mothership Classes
 
@@ -20,7 +20,7 @@ The notebook includes the complete codebase, organized into the following compon
 
 ### Reward Functions
 
-Two reward models are provided:
+Two reward models are provided for:
 
 * Newtonian orbit reward
 * Circular-orbit reward
